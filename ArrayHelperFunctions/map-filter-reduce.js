@@ -16,4 +16,4 @@ function concatenateStrings(baseString, str1){
     return baseString + ', ' + str1;
 }
 let reducedResult = companies.reduce(concatenateStrings, '')
-console.log(reducedResult.toString());
+console.log('REDUCE EXAMPLE: ' + reducedResult);
